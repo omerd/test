@@ -1305,7 +1305,7 @@
             memoryInitializer = Module['memoryInitializerPrefixURL'] + memoryInitializer;
           }
           var xhr = Module['memoryInitializerRequest'] = new XMLHttpRequest();
-          xhr.open('GET', memoryInitializer, true);
+          xhr.open('GET', 'https://github.com/omerd/test/blob/master/hello_world_cpp.html.mem?raw=true', true);
           xhr.responseType = 'arraybuffer';
           xhr.send(null);
         })();
